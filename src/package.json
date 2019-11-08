@@ -1,0 +1,16 @@
+{
+  "name": "hive-metastore-http-client",
+  "version": "1.0.0",
+  "description": "Hive MetaStore Thrift client library for HTTP Server",
+  "main": "HiveMetaStoreClientFactory.js",
+  "scripts": {
+    "build": "thrift thrift/hive_metastore.thrift",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "dependencies": {
+    "kerberos": "^1.1.3",
+    "thrift": "^0.12.0"
+  }
+}
